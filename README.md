@@ -26,8 +26,7 @@ Technology stack:
  Designed by flurry <mailto:flurry.pa@gmail.com>
 
 ## Preview
-
-<img alt="a relative link" src="/home/flurry/projects/031_test_Fevernova_BMAT_Spain/sv/static/sv/images/Swagger_OpenApi.png"/>
+https://drive.google.com/file/d/1St5Y2tIYMgo_TKYMIC2wkrUm6CPBVEPZ/view?usp=sharing
 
 ## Build
 ### install from source
