@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# run project "single_view" using virtual environment
+# bash run
+
+source ./venv/bin/activate
+
+FILE="db.sqlite3"
+if [ -f $FILE ]; then
+    echo "$FILE exists."
+else
+    echo "$FILE does not exist."
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py import_music_works works_metadata.csv
+fi
+python manage.py runserver
+
+deactivate
